@@ -141,9 +141,4 @@ QuestForge combina una idea orientada a las comunidades de videojuegos con una e
 **QuestForge** · Construido en equipo, paso a paso. ⚔️
 
 </div>
-'''
 
-path = Path("/mnt/data/README.md")
-path.write_text(content, encoding="utf-8")
-print(f"Archivo creado: {path}")
-print(f"Tamaño: {path.stat().st_size} bytes")
